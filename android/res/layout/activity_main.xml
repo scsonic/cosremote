@@ -1,0 +1,84 @@
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.ygk.cosremote"
+    tools:ignore="MergeRootFrame" 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    
+    <FrameLayout 
+	    android:id="@+id/container"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:layout_above="@+id/llTab"
+    />
+    
+    <LinearLayout 
+        android:id="@+id/llTab"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/border_top"
+        >
+        <LinearLayout android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.33">
+
+            <TextView
+                android:id="@+id/tvTabSelect"
+                android:drawableTop="@drawable/ic_assignment_black_36dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center|bottom"
+                android:textSize="11sp"
+                android:paddingTop="6dp"
+                android:paddingLeft="0dp"
+                android:paddingRight="0dp"
+                android:text="功能選擇" />
+            
+        </LinearLayout>
+        
+        <LinearLayout android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.33">
+
+            <TextView
+                android:id="@+id/tvTabConnect"
+                
+                android:drawableTop="@drawable/ic_settings_bluetooth_black_36dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center|bottom"
+                android:textSize="11sp"
+                android:paddingTop="6dp"
+                android:paddingLeft="0dp"
+                android:paddingRight="0dp"
+                android:text="裝置連線" />
+        </LinearLayout>
+        
+       <LinearLayout android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.33">
+
+            <TextView
+                android:id="@+id/tvTabLinks"
+                android:drawableTop="@drawable/ic_language_black_36dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center|center_vertical"
+                android:textSize="11sp"
+                android:paddingTop="6dp"
+                android:paddingLeft="0dp"
+                android:paddingRight="0dp"
+                android:text="網站連結" />
+            
+        </LinearLayout>
+        
+
+    </LinearLayout>
+    
+</RelativeLayout>
+
+

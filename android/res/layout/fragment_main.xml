@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/sample_main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f5f0e7" >
+
+   <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+       <TextView
+            android:id="@+id/tvIntro"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="left"
+            android:padding="5dp" 
+            android:text="　使用手機遙控Led開關、亮度、顏色、馬達、冷光線等。 可配合你Cos角色客制化。Android or iPhone皆可客制。有興趣請私訊粉專。"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+       <ImageView
+           android:id="@+id/imageView1"
+           android:layout_width="match_parent"
+           android:layout_height="200dp"
+           android:scaleType="fitCenter"
+           android:src="@drawable/playstore_icon" />
+       
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="left"
+            android:layout_marginTop="5dp"
+            android:padding="5dp" 
+            android:text="　注意,　此程式需要需要搭配  Arduino, 8051, Wifi或藍芽模組及寫好的韌體,才能正常運作。"
+            android:textAppearance="?android:attr/textAppearance" />
+        
+    </LinearLayout>
+
+</RelativeLayout>

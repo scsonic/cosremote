@@ -1,0 +1,104 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+
+	    <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+			android:layout_alignParentTop="true"
+	        android:orientation="vertical" >
+	        
+	        <LinearLayout
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:padding="10dp"
+		        android:orientation="horizontal" >
+	            <TextView
+	                android:id="@+id/tvX"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:text="X: 123"
+	                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+	            <ProgressBar
+	                android:id="@+id/pbX"
+	                style="?android:attr/progressBarStyleHorizontal"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_marginLeft="10dp"
+	                android:layout_weight="1"
+	                android:max="255" />
+
+	        </LinearLayout>
+		 	<LinearLayout
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:padding="10dp"
+		        android:orientation="horizontal" >
+	            <TextView
+	                android:id="@+id/tvY"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:text="Y: 123"
+	                android:textAppearance="?android:attr/textAppearanceMedium" />
+	            <ProgressBar
+	                
+	                android:id="@+id/pbY"
+	                style="?android:attr/progressBarStyleHorizontal"
+	                android:layout_width="wrap_content"
+	                android:layout_marginLeft="10dp"
+	                android:layout_weight="1"
+	                android:layout_height="wrap_content" 
+	                android:max="255" />
+	        </LinearLayout>
+	        <LinearLayout
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:padding="10dp"
+		        android:orientation="horizontal" >
+	            <TextView
+	                android:id="@+id/tvZ"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:text="Z: 123"
+	                android:textAppearance="?android:attr/textAppearanceMedium" />
+	            <ProgressBar
+	                
+	                android:id="@+id/pbZ"
+	                style="?android:attr/progressBarStyleHorizontal"
+	                android:layout_width="wrap_content"
+	                android:layout_marginLeft="10dp"
+	                android:layout_weight="1"
+	                android:layout_height="wrap_content" 
+	                android:max="255" />
+	        </LinearLayout>
+	        
+	        <TextView
+	                android:id="@+id/tvColorText"
+	                android:layout_width="fill_parent"
+	                android:layout_height="wrap_content"
+	                android:text="目前顏色"
+	                android:gravity="center"
+	                android:textAppearance="?android:attr/textAppearanceMedium" />
+	        <TextView
+	                android:id="@+id/tvColorPreview"
+	                android:layout_width="fill_parent"
+	                android:layout_height="100dp"
+	                android:layout_marginTop="5dp"
+	                android:layout_marginLeft="40dp"
+	                android:layout_marginRight="40dp"
+	                android:background="#111111"
+	                android:text=""
+	                android:gravity="center"
+	                android:textAppearance="?android:attr/textAppearanceMedium" />
+	        
+	    </LinearLayout>
+
+
+    
+</RelativeLayout>

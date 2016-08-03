@@ -1,0 +1,107 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:orientation="vertical" >
+
+    
+    <TextView
+    android:id="@+id/tvTitle"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:text="請選擇連線方式"
+    android:textAppearance="?android:attr/textAppearanceLarge" />
+        
+    <ProgressBar
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/progress" 
+        android:max="100" />
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="藍芽2.0\n請先配對藍芽裝置，再由選單中選擇。"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Spinner
+            android:id="@+id/spBTDevice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.8" />
+
+        <Button
+            android:id="@+id/btnConnectBT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:text="連線" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llConnected"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tvConnectStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="尚未連線" />
+
+    </LinearLayout>
+    
+<ProgressBar
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/progress222" 
+        android:max="100" />
+
+
+     <TextView
+        android:id="@+id/textView111"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="藍芽BLE 4.0\n不用配對 按下連線就好 (4.3以上才支援)"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+     
+    <Button
+           android:id="@+id/btnConnectBLE"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="@string/connect_ble" />
+     
+<ProgressBar
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/progres333s" 
+        android:max="100" />
+
+
+     <TextView
+        android:id="@+id/textView11d331"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="連線Wifi\n請先連上Wifi SSID: CosRemote"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    
+         <Button
+           android:id="@+id/btnConnectWifi"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="連線Wifi" />
+    
+</LinearLayout>

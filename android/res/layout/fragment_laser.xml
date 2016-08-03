@@ -1,0 +1,81 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/rlColorPicker"
+        android:padding="0dp"
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <com.ygk.cosremote.AspectRatioImageView
+            android:id="@+id/ivColorPicker"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/color_picker" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/dddd"
+        android:layout_alignParentBottom="true"
+        android:padding="0dp"
+        
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        
+	    <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+			android:layout_alignParentTop="true"
+	        android:orientation="vertical" >
+	        
+      		<TextView
+		        android:id="@+id/tvMethodName"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_weight="1"
+		        android:gravity="center"
+		        android:textAppearance="?android:attr/textAppearanceMedium"
+		        android:text="" />
+	        			    
+	        <LinearLayout
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:orientation="horizontal" >
+			    <TextView
+			        android:id="@+id/tvSelectResult"
+			        android:layout_width="wrap_content"
+			        android:layout_height="match_parent"
+			        android:layout_weight="1"
+			        android:gravity="center_vertical|center_horizontal"
+			        android:textSize="26sp"
+			        android:text="選擇的顏色" />
+		        
+		        <Button
+			        android:id="@+id/btnChangeBitmap"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:text="更換圖片" />
+	        </LinearLayout>
+
+		    <Spinner
+		        android:id="@+id/spTestMethod"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"  />
+	        
+	    </LinearLayout>
+    
+
+    </RelativeLayout>
+
+
+    
+</RelativeLayout>

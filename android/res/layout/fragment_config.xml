@@ -1,0 +1,65 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+
+	    <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+			android:layout_alignParentTop="true"
+	        android:orientation="vertical" >
+	        
+	        
+	        <TextView
+	                android:id="@+id/tvColorText"
+	                android:layout_width="fill_parent"
+	                android:layout_height="wrap_content"
+	                android:text="設定亮度上限"
+	                android:gravity="center"
+	                android:textAppearance="?android:attr/textAppearanceMedium" />
+	        
+			        <SeekBar   
+					    android:layout_width="fill_parent"   
+					    android:layout_height="wrap_content"   
+					    android:layout_margin="10dp"  
+					    android:id="@+id/sbBrightness"  
+					    android:max="255"  
+					    android:progress="200"  
+					    />  
+					    
+			        
+			   <TextView
+	                android:id="@+id/tvdddd"
+	                android:layout_width="fill_parent"
+	                android:layout_height="wrap_content"
+	                android:text="設定ws2812數量 (不一定會有效)"
+	                android:gravity="center"
+	                android:textAppearance="?android:attr/textAppearanceMedium" />
+	        
+			        <SeekBar   
+					    android:layout_width="fill_parent"   
+					    android:layout_height="wrap_content"   
+					    android:layout_margin="10dp"  
+					    android:id="@+id/sbPixelCount"  
+					    android:max="250"  
+					    android:progress="64"  
+					    />  
+					    
+
+			        
+			   <Switch
+			        android:layout_width="fill_parent"
+			        android:layout_height="wrap_content"
+			        android:textOn="開Debug訊息"
+			        android:textOff="關Debug訊息"
+			        android:id="@+id/swDebug"/>
+			   
+	    </LinearLayout>
+
+
+    
+</RelativeLayout>
