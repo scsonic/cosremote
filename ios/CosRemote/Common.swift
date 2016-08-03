@@ -11,7 +11,7 @@ import CoreBluetooth
 
 class Common {
     
-    
+    // this is clone version @@ 
     // not used @@
     class func getBlunoSerialUUID() -> String {
         return "0000dfb1-0000-1000-8000-00805f9b34fb"
