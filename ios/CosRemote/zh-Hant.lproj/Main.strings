@@ -1,0 +1,45 @@
+
+/* Class = "UITabBarItem"; title = " 功能"; ObjectID = "2rh-1z-tuL"; */
+"2rh-1z-tuL.title" = " 功能";
+
+/* Class = "UILabel"; text = "Z"; ObjectID = "4mV-MM-YDf"; */
+"4mV-MM-YDf.text" = "Z";
+
+/* Class = "UILabel"; text = "X"; ObjectID = "6e1-uh-E8e"; */
+"6e1-uh-E8e.text" = "X";
+
+/* Class = "UILabel"; text = "Device Name 123"; ObjectID = "9w3-1V-ViU"; */
+"9w3-1V-ViU.text" = "Device Name 123";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Fcy-D8-1rl"; */
+"Fcy-D8-1rl.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "掃描裝置"; ObjectID = "Fsh-vm-wMo"; */
+"Fsh-vm-wMo.normalTitle" = "掃描裝置";
+
+/* Class = "UITabBarItem"; title = "Item"; ObjectID = "GNn-O8-UJZ"; */
+"GNn-O8-UJZ.title" = "Item";
+
+/* Class = "UITabBarItem"; title = "連結"; ObjectID = "M0W-fS-GWl"; */
+"M0W-fS-GWl.title" = "連結";
+
+/* Class = "UILabel"; text = "isConnect"; ObjectID = "P9i-wG-P9r"; */
+"P9i-wG-P9r.text" = "isConnect";
+
+/* Class = "UITabBarItem"; title = "連線"; ObjectID = "YjY-SP-66z"; */
+"YjY-SP-66z.title" = "連線";
+
+/* Class = "UILabel"; text = "目前顏色"; ObjectID = "b1b-Sy-VNY"; */
+"b1b-Sy-VNY.text" = "目前顏色";
+
+/* Class = "UILabel"; text = "Y"; ObjectID = "kYc-fB-mRx"; */
+"kYc-fB-mRx.text" = "Y";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "mom-Bx-9Zl"; */
+"mom-Bx-9Zl.text" = "Title";
+
+/* Class = "UILabel"; text = "Content 222 3 3333 3 33 3 3 3 Content 222 3 3333 3 33 3 3 3 Content 222 3 3333 3 33 3 3 3 3 33 "; ObjectID = "qHz-ac-Xk2"; */
+"qHz-ac-Xk2.text" = "Content 222 3 3333 3 33 3 3 3 Content 222 3 3333 3 33 3 3 3 Content 222 3 3333 3 33 3 3 3 3 33 ";
+
+/* Class = "UILabel"; text = "目前顏色"; ObjectID = "uhh-zC-v6y"; */
+"uhh-zC-v6y.text" = "目前顏色";
